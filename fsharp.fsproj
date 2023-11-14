@@ -3,10 +3,17 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="Brolib.fs" />
+    <Compile Include="Svelte.fs" />
+    <Compile Include="Rust.fs" />
+    <Compile Include="Seph.fs" />
+    <Compile Include="Automerge.fs" />
+    <Compile Include="Utils.fs" />
+    <Compile Include="Run.fs" />
   </ItemGroup>
 
 </Project>
